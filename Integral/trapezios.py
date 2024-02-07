@@ -26,6 +26,6 @@ def metodo_trapezio(funcao, intervalo, num_iteracoes):
 
 # Exemplo de uso:
 intervalo = (-5, 5)
-num_iteracoes = 3
+num_iteracoes = 10
 
 metodo_trapezio(funcao, intervalo, num_iteracoes)
