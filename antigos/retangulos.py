@@ -21,6 +21,12 @@ def metodo_retangulos(funcao, intervalo, num_iteracoes):
         yi = [0, 0, y_retangulo[i+1], y_retangulo[i+1]]
         plt.fill(xi, yi, color='green', alpha=0.2)
 
+    integral_aproximada = 0
+    for iteracao in range(1, num_iteracoes):
+        area = funcao(largura*iteracao) * largura
+        integral_aproximada += area
+    print(integral_aproximada)
+
     plt.title('Método de Retângulos')
     plt.xlabel('x')
     plt.ylabel('y')
@@ -29,6 +35,6 @@ def metodo_retangulos(funcao, intervalo, num_iteracoes):
 
 # Exemplo de uso:
 intervalo = (0, 15)
-num_iteracoes = 50
+num_iteracoes = 500000
 
 metodo_retangulos(funcao, intervalo, num_iteracoes)
