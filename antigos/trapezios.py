@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+'''import matplotlib.pyplot as plt
 import numpy as np
 
 def funcao(x):
@@ -28,4 +28,4 @@ def metodo_trapezio(funcao, intervalo, num_iteracoes):
 intervalo = (-5, 5)
 num_iteracoes = 10
 
-metodo_trapezio(funcao, intervalo, num_iteracoes)
+metodo_trapezio(funcao, intervalo, num_iteracoes)'''

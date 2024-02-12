@@ -1,4 +1,4 @@
-import numpy as np
+'''import numpy as np
 
 
 def funcao(x):
@@ -26,3 +26,4 @@ n = 10000
 
 resultado = monte_carlo_integral(a, b, n)
 print(f"Aproximação da integral: {resultado}")
+'''

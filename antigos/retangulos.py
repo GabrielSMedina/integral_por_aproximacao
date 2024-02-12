@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+'''import matplotlib.pyplot as plt
 import numpy as np
 
 def funcao(x):
@@ -38,3 +38,4 @@ intervalo = (0, 15)
 num_iteracoes = 500000
 
 metodo_retangulos(funcao, intervalo, num_iteracoes)
+'''

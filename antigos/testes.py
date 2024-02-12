@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+'''import matplotlib.pyplot as plt
 import numpy as np
 
 
@@ -66,4 +66,4 @@ def teste3():
     plt.show()
 
 
-teste3()
+teste3()'''

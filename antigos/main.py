@@ -1,4 +1,4 @@
-def integral_aproximada(funcao, intervalo, num_iteracoes):
+'''def integral_aproximada(funcao, intervalo, num_iteracoes):
 
     a, b = intervalo  # Limites inferior e superior do intervalo
 
@@ -37,3 +37,4 @@ num_iteracoes = 10
 
 print('A integral aproximada é: ', integral_aproximada(minha_funcao, intervalo, num_iteracoes))
 print('A integral aproximada é por método do trapezio é: ', integral_metodo_do_trapezio(minha_funcao, intervalo, num_iteracoes))
+'''
