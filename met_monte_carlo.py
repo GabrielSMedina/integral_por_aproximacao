@@ -20,6 +20,8 @@ def monte_carlo_integral(x0, x1, num_iteracoes, graficos):
 
     aproximacao_integral: float = (pontos_abaixo / num_iteracoes) * area_retangulo  # (Pcurva/Ptotais)*Area_Retângulo
 
+    print(f'pontos abaixo: {pontos_abaixo}, area: {area_retangulo}')
+
     if graficos:  # se parâmetro graficos for TRUE, plotar gráficos
         plotar_monte_carlo(x, y, x0, x1, num_iteracoes)
 
@@ -52,8 +54,9 @@ def calcula_pontos(x, y, num_iteracoes):  # Função destinada a calcular de for
 
     pontos = 0
     for valor in range(0, num_iteracoes):
-        if 0 <= y[valor] < funcao(x[valor]):
-            pontos += 1
+        if y[valor] > 0:  # 0 <= y[valor] < funcao(x[valor]):
+            if y[valor] < funcao(x[valor]):
+                pontos += 1
         else:
             if y[valor] > funcao(x[valor]):
                 pontos += 1

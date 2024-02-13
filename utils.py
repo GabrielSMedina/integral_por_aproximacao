@@ -5,8 +5,8 @@ cor_curva = 'black'
 
 def funcao(x):
     # return x**2
-    # return -(x ** 3) + ((3*x)**2) - (17*x) + 3
-    return -(x ** 2) + (x * 3) - 2
+    return -(x ** 3) + ((3*x)**2) - (17*x) + 3
+    # return -(x ** 2) + (x * 3) - 2
 
 
 def rodar_testes(x0, x1, iteracoes, graficos, teste):
