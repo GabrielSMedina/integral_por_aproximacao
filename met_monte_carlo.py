@@ -16,11 +16,9 @@ def monte_carlo_integral(x0, x1, num_iteracoes, graficos):
 
     pontos_abaixo = calcula_pontos(x, y, num_iteracoes)  # Função para calcular pontos dentro da área da curva
 
-    area_retangulo = abs((x1 - x0)) * (y_max - y_min)  # Calcula a área do retângulo que contem a curva A=Base x Altura
+    area_retangulo = (x1 - x0) * (y_max - y_min)  # Calcula a área do retângulo que contem a curva A=Base x Altura
 
     aproximacao_integral: float = (pontos_abaixo / num_iteracoes) * area_retangulo  # (Pcurva/Ptotais)*Area_Retângulo
-
-    print(f'pontos abaixo: {pontos_abaixo}, area: {area_retangulo}')
 
     if graficos:  # se parâmetro graficos for TRUE, plotar gráficos
         plotar_monte_carlo(x, y, x0, x1, num_iteracoes)

@@ -4,8 +4,8 @@ cor_curva = 'black'
 
 
 def funcao(x):
-    # return x**2
-    return -(x ** 3) + ((3*x)**2) - (17*x) + 3
+    return x**2
+    # return -(x ** 3) + ((3*x)**2) - (17*x) + 3
     # return -(x ** 2) + (x * 3) - 2
 
 
@@ -26,9 +26,9 @@ def teste_unico(x0, x1, iteracoes, graficos):
 
     print(
         f'número de iterações: {iteracoes}\n'
-        f'Integral por monte carlos: {monte_carlo_integral(x0, x1, iteracoes, graficos):.4f}\n'
-        f'Integral por Retângulos: {retangulo_integral(x0, x1, iteracoes, graficos):.4f}\n'
-        f'Integral por Trapézio: {trapezio_integral(x0, x1, iteracoes, graficos):.4f}\n'
+        f'Integral por monte carlos(abs A): {monte_carlo_integral(x0, x1, iteracoes, graficos):.4f}\n'
+        f'Integral por Retângulos(abs A): {retangulo_integral(x0, x1, iteracoes, graficos):.4f}\n'
+        f'Integral por Trapézio(abs A): {trapezio_integral(x0, x1, iteracoes, graficos):.4f}\n'
         f'Integral por Simpson: {metodo_simpson(x0, x1, iteracoes, graficos):.4f}\n'
     )
 
