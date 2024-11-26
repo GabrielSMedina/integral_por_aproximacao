@@ -1,4 +1,3 @@
-
 # 📊 Integral por Aproximação
 
 Este projeto foi desenvolvido para representar visualmente e explorar métodos geométricos para resolver integrais definidas. Utilizando conceitos matemáticos e computacionais, o objetivo principal foi criar uma ferramenta didática para demonstrar a aplicação de métodos numéricos em Python.
@@ -74,10 +73,13 @@ Inicialmente, o objetivo era ilustrar visualmente métodos geométricos para o c
 ## 📊 **Exemplo de Visualização**
 
 ### **Método dos Retângulos**
-![Método dos Retângulos]()
+(![retangulo](https://github.com/user-attachments/assets/ef628c5f-78e6-4159-8d52-5ab7ac860cf8)
+
+
 
 ### **Método de Simpson**
-![Método de Simpson]()
+(![simpson](https://github.com/user-attachments/assets/6756fc49-4fb4-4341-b5fc-18f52bae79e9)
+)
 
 ---
 
